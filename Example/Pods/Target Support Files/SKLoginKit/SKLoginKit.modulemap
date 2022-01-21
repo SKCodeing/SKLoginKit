@@ -1,0 +1,6 @@
+framework module SKLoginKit {
+  umbrella header "SKLoginKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

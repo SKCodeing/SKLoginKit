@@ -1,0 +1,6 @@
+framework module Pods_SKLoginKit_Tests {
+  umbrella header "Pods-SKLoginKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

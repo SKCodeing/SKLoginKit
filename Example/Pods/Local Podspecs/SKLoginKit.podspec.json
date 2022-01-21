@@ -1,0 +1,22 @@
+{
+  "name": "SKLoginKit",
+  "version": "0.1.0",
+  "summary": "A short description of SKLoginKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SKCodeing/SKLoginKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SKCodeing": "807600577@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/SKCodeing/SKLoginKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SKLoginKit/Classes/**/*"
+}

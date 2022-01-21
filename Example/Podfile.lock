@@ -1,0 +1,16 @@
+PODS:
+  - SKLoginKit (0.1.0)
+
+DEPENDENCIES:
+  - SKLoginKit (from `../`)
+
+EXTERNAL SOURCES:
+  SKLoginKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKLoginKit: cf9993102afb3cbe0c54682406f6650cbb4b0a5a
+
+PODFILE CHECKSUM: b908b9ced55af2f923d0eb0809043b6210871729
+
+COCOAPODS: 1.11.2

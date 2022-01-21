@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4842EE16118D8521588BB01BB6DE85A6 /* LoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ECA1CB079247896BF83A7D5CF6FE93B /* LoginVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		529AEC3AA51548AC02EAE877A7377589 /* Pods-SKLoginKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E33F4623B38039203D1E3C853AAA198 /* Pods-SKLoginKit_Example-dummy.m */; };
+		742A00F3382589D3EEBC82E915C4B105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		772289094A54C7ECBC2FDB4B4E4BF309 /* Pods-SKLoginKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D036B9CC59DD73CB7CEE915B4DAF109 /* Pods-SKLoginKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BDD49D7B2419AF79A8E684F4FDBCADA /* Pods-SKLoginKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3476351D88B7FDE87CC36DE486E72 /* Pods-SKLoginKit_Tests-dummy.m */; };
+		93C6A7C0FAA61FDDFA7ECBF95AABF477 /* SKLoginKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF29C9FA0457C13601C277052D86CB0A /* SKLoginKit-dummy.m */; };
+		A865D2862A38187D940005F3077D2941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BEE5399B4F6127EABB75D85B62E2F8CB /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F3B27F891746A47DFD0EA371FB54F /* LoginVC.m */; };
+		C080AC27BCAB27206E508DA31E267B14 /* Pods-SKLoginKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1734123020B0C784AD3FA9AC1242478 /* Pods-SKLoginKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C428ECC74C577B681D793D182AFF6C11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA616AA69E330CA96F1FF4BBA1FF0E9D /* SKLoginKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 215CCA28D2346E441B76588C37CFA845 /* SKLoginKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47A125159CF41FC0356ACC55B8B7F3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BBDD7514FE9963E46861A35FA2FFF1D;
+			remoteInfo = SKLoginKit;
+		};
+		E418EAA6A546ACE5D5FC2ACFF8140075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78B6C7D6944A48CDB010AA178F72F707;
+			remoteInfo = "Pods-SKLoginKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035AB9E11D47E503D069E95589075944 /* SKLoginKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKLoginKit; path = SKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A2BE7BB79D995E3443009353EF4C3E /* Pods-SKLoginKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKLoginKit_Tests"; path = Pods_SKLoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0710886A4D73C1088D593CF6C5EE0478 /* Pods-SKLoginKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKLoginKit_Example-Info.plist"; sourceTree = "<group>"; };
+		08E85C2487E207B068967620F7AF275E /* Pods-SKLoginKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKLoginKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		11E3EDA48B28613651EA9A1AAC8261CE /* SKLoginKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKLoginKit-prefix.pch"; sourceTree = "<group>"; };
+		16F88B70AD1B31DDE5F447C86ACBD6EA /* SKLoginKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKLoginKit-Info.plist"; sourceTree = "<group>"; };
+		1E3F3B27F891746A47DFD0EA371FB54F /* LoginVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = SKLoginKit/Classes/LoginVC.m; sourceTree = "<group>"; };
+		1E6E8DE1B0912472A08F7B8B616DCDD9 /* Pods-SKLoginKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKLoginKit_Example"; path = Pods_SKLoginKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		215CCA28D2346E441B76588C37CFA845 /* SKLoginKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKLoginKit-umbrella.h"; sourceTree = "<group>"; };
+		2E703C24BF6926D0CE4A3CF4C42255F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3D817B7D89CA8D1F34C6B25EF0F3D231 /* Pods-SKLoginKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKLoginKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E33F4623B38039203D1E3C853AAA198 /* Pods-SKLoginKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKLoginKit_Example-dummy.m"; sourceTree = "<group>"; };
+		433DA4C74C033334657926296DED9606 /* Pods-SKLoginKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKLoginKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4D036B9CC59DD73CB7CEE915B4DAF109 /* Pods-SKLoginKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKLoginKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4D69C08CF75C860D9275104409E150AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5AB3476351D88B7FDE87CC36DE486E72 /* Pods-SKLoginKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKLoginKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76D63A47172FD234695B71D7ED846C03 /* Pods-SKLoginKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKLoginKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7ECA1CB079247896BF83A7D5CF6FE93B /* LoginVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = SKLoginKit/Classes/LoginVC.h; sourceTree = "<group>"; };
+		8F5C7812662A4B75A8C2B5D41683FA8E /* SKLoginKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKLoginKit.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3560B4035AAE71CC7A0DBA36B1C35B9 /* Pods-SKLoginKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKLoginKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A7F9884AB5C53A9DB6D92A5E91EB19DE /* SKLoginKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKLoginKit.modulemap; sourceTree = "<group>"; };
+		AFD2E04BDF46FD354CFC397F1A2AB293 /* Pods-SKLoginKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKLoginKit_Tests.modulemap"; sourceTree = "<group>"; };
+		B1734123020B0C784AD3FA9AC1242478 /* Pods-SKLoginKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKLoginKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		B297AB82FC3F903B6BA201C555BCF87F /* Pods-SKLoginKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKLoginKit_Example.modulemap"; sourceTree = "<group>"; };
+		CBA9A14EE1B1C21892D9298C99878607 /* Pods-SKLoginKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKLoginKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CF29C9FA0457C13601C277052D86CB0A /* SKLoginKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKLoginKit-dummy.m"; sourceTree = "<group>"; };
+		D0781909EF6B1A1CE543E9FFA5CE7209 /* Pods-SKLoginKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKLoginKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		DDB5E3552E626D93C7E898945B6D8CF5 /* Pods-SKLoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKLoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9B4ED386342DA58AF37CC00F3268AE2 /* Pods-SKLoginKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKLoginKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9F81CD2901CDD87BE14310278711C96 /* Pods-SKLoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKLoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA1DAC7A2338885DC7303F6D95CF784A /* SKLoginKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKLoginKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F03D2F02F262E3EF09955749FF0E91AE /* SKLoginKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKLoginKit.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A3531E2FC2F24EA1200E2A92FF88786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742A00F3382589D3EEBC82E915C4B105 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CD53CC4C4DA1A2AFDBAF7A03EB5967B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A865D2862A38187D940005F3077D2941 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1598E0A938C7759AB426A7FA0784BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C428ECC74C577B681D793D182AFF6C11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		686B60A0F1D6A454B673821BEA759B48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F9884AB5C53A9DB6D92A5E91EB19DE /* SKLoginKit.modulemap */,
+				CF29C9FA0457C13601C277052D86CB0A /* SKLoginKit-dummy.m */,
+				16F88B70AD1B31DDE5F447C86ACBD6EA /* SKLoginKit-Info.plist */,
+				11E3EDA48B28613651EA9A1AAC8261CE /* SKLoginKit-prefix.pch */,
+				215CCA28D2346E441B76588C37CFA845 /* SKLoginKit-umbrella.h */,
+				F03D2F02F262E3EF09955749FF0E91AE /* SKLoginKit.debug.xcconfig */,
+				8F5C7812662A4B75A8C2B5D41683FA8E /* SKLoginKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKLoginKit";
+			sourceTree = "<group>";
+		};
+		707505811B085F47B3633CAB38D0E195 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99FA44081DB7C9FCFA3FDE3D59CE8399 /* Pods-SKLoginKit_Example */,
+				E3ACCE6BE2E3CAC3699C4E0E0C074897 /* Pods-SKLoginKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		97979A2B3F9614EB16E2AB5FEEAC5108 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E35F7BB8C8AA2218D992EC21AE7CBF4E /* SKLoginKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		99FA44081DB7C9FCFA3FDE3D59CE8399 /* Pods-SKLoginKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B297AB82FC3F903B6BA201C555BCF87F /* Pods-SKLoginKit_Example.modulemap */,
+				3D817B7D89CA8D1F34C6B25EF0F3D231 /* Pods-SKLoginKit_Example-acknowledgements.markdown */,
+				08E85C2487E207B068967620F7AF275E /* Pods-SKLoginKit_Example-acknowledgements.plist */,
+				3E33F4623B38039203D1E3C853AAA198 /* Pods-SKLoginKit_Example-dummy.m */,
+				433DA4C74C033334657926296DED9606 /* Pods-SKLoginKit_Example-frameworks.sh */,
+				0710886A4D73C1088D593CF6C5EE0478 /* Pods-SKLoginKit_Example-Info.plist */,
+				B1734123020B0C784AD3FA9AC1242478 /* Pods-SKLoginKit_Example-umbrella.h */,
+				CBA9A14EE1B1C21892D9298C99878607 /* Pods-SKLoginKit_Example.debug.xcconfig */,
+				A3560B4035AAE71CC7A0DBA36B1C35B9 /* Pods-SKLoginKit_Example.release.xcconfig */,
+			);
+			name = "Pods-SKLoginKit_Example";
+			path = "Target Support Files/Pods-SKLoginKit_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				97979A2B3F9614EB16E2AB5FEEAC5108 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F6EDF9B174675210C027A699413A42EF /* Products */,
+				707505811B085F47B3633CAB38D0E195 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E35F7BB8C8AA2218D992EC21AE7CBF4E /* SKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA1CB079247896BF83A7D5CF6FE93B /* LoginVC.h */,
+				1E3F3B27F891746A47DFD0EA371FB54F /* LoginVC.m */,
+				E81C6F24572519AE780F7AFA0900B476 /* Pod */,
+				686B60A0F1D6A454B673821BEA759B48 /* Support Files */,
+			);
+			name = SKLoginKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E3ACCE6BE2E3CAC3699C4E0E0C074897 /* Pods-SKLoginKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD2E04BDF46FD354CFC397F1A2AB293 /* Pods-SKLoginKit_Tests.modulemap */,
+				76D63A47172FD234695B71D7ED846C03 /* Pods-SKLoginKit_Tests-acknowledgements.markdown */,
+				E9B4ED386342DA58AF37CC00F3268AE2 /* Pods-SKLoginKit_Tests-acknowledgements.plist */,
+				5AB3476351D88B7FDE87CC36DE486E72 /* Pods-SKLoginKit_Tests-dummy.m */,
+				D0781909EF6B1A1CE543E9FFA5CE7209 /* Pods-SKLoginKit_Tests-Info.plist */,
+				4D036B9CC59DD73CB7CEE915B4DAF109 /* Pods-SKLoginKit_Tests-umbrella.h */,
+				DDB5E3552E626D93C7E898945B6D8CF5 /* Pods-SKLoginKit_Tests.debug.xcconfig */,
+				E9F81CD2901CDD87BE14310278711C96 /* Pods-SKLoginKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKLoginKit_Tests";
+			path = "Target Support Files/Pods-SKLoginKit_Tests";
+			sourceTree = "<group>";
+		};
+		E81C6F24572519AE780F7AFA0900B476 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E703C24BF6926D0CE4A3CF4C42255F2 /* LICENSE */,
+				4D69C08CF75C860D9275104409E150AC /* README.md */,
+				EA1DAC7A2338885DC7303F6D95CF784A /* SKLoginKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F6EDF9B174675210C027A699413A42EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E8DE1B0912472A08F7B8B616DCDD9 /* Pods-SKLoginKit_Example */,
+				06A2BE7BB79D995E3443009353EF4C3E /* Pods-SKLoginKit_Tests */,
+				035AB9E11D47E503D069E95589075944 /* SKLoginKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		397DD5C4C823A0EF2D6C16B5FE6A8122 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C080AC27BCAB27206E508DA31E267B14 /* Pods-SKLoginKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E71934CF74CDC7F8EDE4A8498D8AB99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4842EE16118D8521588BB01BB6DE85A6 /* LoginVC.h in Headers */,
+				FA616AA69E330CA96F1FF4BBA1FF0E9D /* SKLoginKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A2699555F7A36AEE5DB278006BD51B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772289094A54C7ECBC2FDB4B4E4BF309 /* Pods-SKLoginKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BBDD7514FE9963E46861A35FA2FFF1D /* SKLoginKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB54FD9E8F7F8790298C570A40FFBE1 /* Build configuration list for PBXNativeTarget "SKLoginKit" */;
+			buildPhases = (
+				3E71934CF74CDC7F8EDE4A8498D8AB99 /* Headers */,
+				65E0AFAAC3F33B6A30ADEE80223BBBFE /* Sources */,
+				9CD53CC4C4DA1A2AFDBAF7A03EB5967B /* Frameworks */,
+				154CE61CC3B14DC68E3D3B8C1667B1A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKLoginKit;
+			productName = SKLoginKit;
+			productReference = 035AB9E11D47E503D069E95589075944 /* SKLoginKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		78B6C7D6944A48CDB010AA178F72F707 /* Pods-SKLoginKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579552F08B6F3D44ED9A1C3773669450 /* Build configuration list for PBXNativeTarget "Pods-SKLoginKit_Example" */;
+			buildPhases = (
+				397DD5C4C823A0EF2D6C16B5FE6A8122 /* Headers */,
+				9C49D6169D510C03D52638C42287C49B /* Sources */,
+				B1598E0A938C7759AB426A7FA0784BA4 /* Frameworks */,
+				498931D86EE1CD94B6BD622C4AADA14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7235E12DD4D41BC7739B63D2B35C57E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKLoginKit_Example";
+			productName = Pods_SKLoginKit_Example;
+			productReference = 1E6E8DE1B0912472A08F7B8B616DCDD9 /* Pods-SKLoginKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7201F50452D9DEFD4A6889CD81CE638 /* Pods-SKLoginKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBA9254867EC0B385A0CECDB92CC972 /* Build configuration list for PBXNativeTarget "Pods-SKLoginKit_Tests" */;
+			buildPhases = (
+				B3A2699555F7A36AEE5DB278006BD51B /* Headers */,
+				243947D8D904DACA5423A6AA914A6104 /* Sources */,
+				3A3531E2FC2F24EA1200E2A92FF88786 /* Frameworks */,
+				4DBF2CBED62F6D905A595FE61431D948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C3784E8B54E46DAB409F2DD995D05AA /* PBXTargetDependency */,
+			);
+			name = "Pods-SKLoginKit_Tests";
+			productName = Pods_SKLoginKit_Tests;
+			productReference = 06A2BE7BB79D995E3443009353EF4C3E /* Pods-SKLoginKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F6EDF9B174675210C027A699413A42EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78B6C7D6944A48CDB010AA178F72F707 /* Pods-SKLoginKit_Example */,
+				F7201F50452D9DEFD4A6889CD81CE638 /* Pods-SKLoginKit_Tests */,
+				1BBDD7514FE9963E46861A35FA2FFF1D /* SKLoginKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		154CE61CC3B14DC68E3D3B8C1667B1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498931D86EE1CD94B6BD622C4AADA14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DBF2CBED62F6D905A595FE61431D948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		243947D8D904DACA5423A6AA914A6104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDD49D7B2419AF79A8E684F4FDBCADA /* Pods-SKLoginKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E0AFAAC3F33B6A30ADEE80223BBBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE5399B4F6127EABB75D85B62E2F8CB /* LoginVC.m in Sources */,
+				93C6A7C0FAA61FDDFA7ECBF95AABF477 /* SKLoginKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49D6169D510C03D52638C42287C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529AEC3AA51548AC02EAE877A7377589 /* Pods-SKLoginKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C3784E8B54E46DAB409F2DD995D05AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SKLoginKit_Example";
+			target = 78B6C7D6944A48CDB010AA178F72F707 /* Pods-SKLoginKit_Example */;
+			targetProxy = E418EAA6A546ACE5D5FC2ACFF8140075 /* PBXContainerItemProxy */;
+		};
+		7235E12DD4D41BC7739B63D2B35C57E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKLoginKit;
+			target = 1BBDD7514FE9963E46861A35FA2FFF1D /* SKLoginKit */;
+			targetProxy = 47A125159CF41FC0356ACC55B8B7F3A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05998EC9AABC4C6B1D633A33AE7A97AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03D2F02F262E3EF09955749FF0E91AE /* SKLoginKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKLoginKit/SKLoginKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKLoginKit/SKLoginKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKLoginKit/SKLoginKit.modulemap";
+				PRODUCT_MODULE_NAME = SKLoginKit;
+				PRODUCT_NAME = SKLoginKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19E62A2BD761A0030E85E6D823C74DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB5E3552E626D93C7E898945B6D8CF5 /* Pods-SKLoginKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKLoginKit_Tests/Pods-SKLoginKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKLoginKit_Tests/Pods-SKLoginKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51F7B2FBEB3D8D8B9426A6C7BA51C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA9A14EE1B1C21892D9298C99878607 /* Pods-SKLoginKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKLoginKit_Example/Pods-SKLoginKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKLoginKit_Example/Pods-SKLoginKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EBD118915E4FC2280F22B7256F7876A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3560B4035AAE71CC7A0DBA36B1C35B9 /* Pods-SKLoginKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKLoginKit_Example/Pods-SKLoginKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKLoginKit_Example/Pods-SKLoginKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83193F4DFFA6BC3F8110C0658CBCD713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F81CD2901CDD87BE14310278711C96 /* Pods-SKLoginKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SKLoginKit_Tests/Pods-SKLoginKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SKLoginKit_Tests/Pods-SKLoginKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDF6BE9D77D0F158CABDDE70B4C0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5C7812662A4B75A8C2B5D41683FA8E /* SKLoginKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKLoginKit/SKLoginKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKLoginKit/SKLoginKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKLoginKit/SKLoginKit.modulemap";
+				PRODUCT_MODULE_NAME = SKLoginKit;
+				PRODUCT_NAME = SKLoginKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579552F08B6F3D44ED9A1C3773669450 /* Build configuration list for PBXNativeTarget "Pods-SKLoginKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F7B2FBEB3D8D8B9426A6C7BA51C4E2 /* Debug */,
+				7EBD118915E4FC2280F22B7256F7876A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB54FD9E8F7F8790298C570A40FFBE1 /* Build configuration list for PBXNativeTarget "SKLoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05998EC9AABC4C6B1D633A33AE7A97AC /* Debug */,
+				BEFDF6BE9D77D0F158CABDDE70B4C0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBA9254867EC0B385A0CECDB92CC972 /* Build configuration list for PBXNativeTarget "Pods-SKLoginKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E62A2BD761A0030E85E6D823C74DD8 /* Debug */,
+				83193F4DFFA6BC3F8110C0658CBCD713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
