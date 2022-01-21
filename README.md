@@ -27,3 +27,6 @@ SKCodeing, 807600577@qq.com
 ## License
 
 SKLoginKit is available under the MIT license. See the LICENSE file for more info.
+
+包含登录、注册、修改密码、忘记密码、登录成功保存用户信息等功能
+
