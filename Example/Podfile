@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SKLoginKit_Example' do
+  pod 'SKLoginKit', :path => '../'
+
+  target 'SKLoginKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
